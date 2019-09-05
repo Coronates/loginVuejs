@@ -12,7 +12,7 @@ export default {
     return {
       logged: false,
       user: {
-        username: "admin",
+        email: "admin@example.com",
         password: "123"
       }
     };
@@ -41,8 +41,9 @@ h1 {
   padding: 0;
   margin-top: 0;
 }
-#app {
-  width: 1024px;
-  margin: auto;
+
+iframe {
+  width: 100%;
+  height: 1350px;
 }
 </style>

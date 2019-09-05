@@ -1,8 +1,7 @@
 <template>
   <div id="landing">
     <router-link to="/login">Logout</router-link>
-    <h1>Welcome</h1>
-    <p>you logged successfully</p>
+    <iframe src="http://localhost:4200/" height="1000"></iframe>
   </div>
 </template>
 
@@ -15,11 +14,7 @@ export default {
 };
 </script>
 
+
 <style scoped>
-#landing {
-  background-color: rgba(74, 196, 105, 0.199);
-  border: 1px solid rgb(78, 65, 65);
-  padding: 20px;
-  margin-top: 10px;
-}
+
 </style>
